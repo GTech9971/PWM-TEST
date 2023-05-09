@@ -3,16 +3,18 @@ Microchip MPLAB XC8 Compiler V2.41
 Linker command line:
 
 -W-3 \
-  --edf=/Users/george/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8/pic/dat/20230328142712_en.msgs \
-  -cn -h+dist/default/production/PWM-TEST.X.production.sym \
-  --cmf=dist/default/production/PWM-TEST.X.production.cmf -z -Q16F1827 \
-  -o/tmp/xcKIG0tHL/driver_tmp_3.o --defsym=__MPLAB_BUILD=1 \
-  --fixupoverflow=error -Mdist/default/production/PWM-TEST.X.production.map \
-  --md=/tmp/xcKIG0tHL/driver_tmp_0.dat -E1 -ver=XC8 Compiler --acfsm=1493 \
-  -ACODE=00h-07FFhx2 -ASTRCODE=00h-0FFFh -ASTRING=00h-0FFhx16 \
-  -ACONST=00h-0FFhx16 -AENTRY=00h-0FFhx16 -ACOMMON=070h-07Fh \
-  -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh -ABANK2=0120h-016Fh \
-  -ABANK3=01A0h-01EFh -ABANK4=0220h-024Fh -ABIGRAM=02000h-0216Fh \
+  --edf=C:/Users/georg/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.4.213/xc8\pic\dat\20230328142712_en.msgs \
+  -cn -h+dist/default/production\PWM-TEST.X.production.sym \
+  --cmf=dist/default/production\PWM-TEST.X.production.cmf -z -Q16F1827 \
+  -oC:\Users\georg\AppData\Local\Temp\xcAs9ok.\driver_tmp_3.o \
+  --defsym=__MPLAB_BUILD=1 --fixupoverflow=error \
+  -Mdist/default/production/PWM-TEST.X.production.map \
+  --md=C:\Users\georg\AppData\Local\Temp\xcAs9ok.\driver_tmp_0.dat -E1 \
+  -ver=XC8 Compiler --acfsm=1493 -ACODE=00h-07FFhx2 -ASTRCODE=00h-0FFFh \
+  -ASTRING=00h-0FFhx16 -ACONST=00h-0FFhx16 -AENTRY=00h-0FFhx16 \
+  -ACOMMON=070h-07Fh -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh \
+  -ABANK2=0120h-016Fh -ABANK3=01A0h-01EFh -ABANK4=0220h-024Fh \
+  -ABIGRAM=02000h-0216Fh \
   -ARAM=020h-06Fh,0A0h-0EFh,0120h-016Fh,01A0h-01EFh,0220h-024Fh \
   -AABS1=020h-07Fh,0A0h-0EFh,0120h-016Fh,01A0h-01EFh,0220h-024Fh \
   -ASFR0=00h-01Fh -ASFR1=080h-09Fh -ASFR2=0100h-011Fh -ASFR3=0180h-019Fh \
@@ -29,8 +31,9 @@ Linker command line:
   -AIDLOC=08000h-08003h -DIDLOC=2 -AEEDATA=00h-0FFh/0F000h \
   -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 \
   -DENTRY=2 -preset_vec=00h,intentry,init,end_init -ppowerup=CODE \
-  -pcinit=CODE -pfunctab=ENTRY -k /tmp/xcKIG0tHL/driver_tmp_15.o \
-  dist/default/production/PWM-TEST.X.production.o 
+  -pcinit=CODE -pfunctab=ENTRY -k \
+  C:\Users\georg\AppData\Local\Temp\xcAs9ok.\driver_tmp_15.o \
+  dist/default/production\PWM-TEST.X.production.o 
 
 Object code version is 3.11
 
@@ -39,23 +42,21 @@ Machine type is 16F1827
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-/tmp/xcKIG0tHL/driver_tmp_15.o
+C:\Users\georg\AppData\Local\Temp\xcAs9ok.\driver_tmp_15.o
                 end_init                              2        2        2        0       0
                 reset_vec                             0        0        2        0       0
                 config                             8007     8007        2        0       4
                 idloc                              8000     8000        4        0       5
-dist/default/production/PWM-TEST.X.production.o
+dist/default/production\PWM-TEST.X.production.o
                 cinit                               7FD      7FD        3      FFA       0
                 config                             8007     8007        2        0       4
                 idloc                              8000     8000        4        0       5
-                text7                               7CA      7CA       17      F94       0
-                text6                               78B      78B        7      F16       0
-                text5                               7B4      7B4       16      F68       0
-                text4                               79A      79A        A      F34       0
-                text3                               792      792        8      F24       0
-                text2                               787      787        4      F0E       0
-                text1                               7A4      7A4       10      F48       0
-                maintext                            7E1      7E1       1C      FC2       0
+                text5                               7AB      7AB       17      F56       0
+                text4                               784      784        7      F08       0
+                text3                               795      795       16      F2A       0
+                text2                               780      780        4      F00       0
+                text1                               78B      78B        A      F16       0
+                maintext                            7C2      7C2       3B      F84       0
                 cstackCOMMON                         70       70        7       70       1
 
 TOTAL           Name                               Link     Load   Length     Space
@@ -63,14 +64,12 @@ TOTAL           Name                               Link     Load   Length     Sp
                 end_init                              2        2        2         0
                 cinit                               7FD      7FD        3         0
                 reset_vec                             0        0        2         0
-                text7                               7CA      7CA       17         0
-                text6                               78B      78B        7         0
-                text5                               7B4      7B4       16         0
-                text4                               79A      79A        A         0
-                text3                               792      792        8         0
-                text2                               787      787        4         0
-                text1                               7A4      7A4       10         0
-                maintext                            7E1      7E1       1C         0
+                text5                               7AB      7AB       17         0
+                text4                               784      784        7         0
+                text3                               795      795       16         0
+                text2                               780      780        4         0
+                text1                               78B      78B        A         0
+                maintext                            7C2      7C2       3B         0
 
         CLASS   STRCODE        
 
@@ -234,16 +233,14 @@ TOTAL           Name                               Link     Load   Length     Sp
 
 SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
 
-                text5                          0007B4  000016  0007CA       F68       0  CODE        2
-                text1                          0007A4  000010  0007B4       F48       0  CODE        2
-                text4                          00079A  00000A  0007A4       F34       0  CODE        2
                 reset_vec                      000000  000004  000004         0       0  CODE        2
-                text3                          000792  000008  00079A       F24       0  CODE        2
-                maintext                       0007E1  00001C  0007FD       FC2       0  CODE        2
-                text7                          0007CA  000017  0007E1       F94       0  CODE        2
-                text2                          000787  000004  00078B       F0E       0  CODE        2
-                text6                          00078B  000007  000792       F16       0  CODE        2
                 cstackCOMMON                   000070  000007  000077        70       1  COMMON      1
+                text2                          000780  000004  000784       F00       0  CODE        2
+                text4                          000784  000007  00078B       F08       0  CODE        2
+                text1                          00078B  00000A  000795       F16       0  CODE        2
+                text3                          000795  000016  0007AB       F2A       0  CODE        2
+                text5                          0007AB  000017  0007C2       F56       0  CODE        2
+                maintext                       0007C2  00003B  0007FD       F84       0  CODE        2
                 cinit                          0007FD  000003  000800       FFA       0  CODE        2
 
 
@@ -256,13 +253,13 @@ UNUSED ADDRESS RANGES
         BANK3            001A0-001EF              50           1
         BANK4            00220-0024F              30           1
         BIGRAM           02000-0216F             170           1
-        CODE             00004-00786             783           2
+        CODE             00004-0077F             77C           2
                          00800-00FFF             800
         COMMON           00077-0007D               7           1
-        CONST            00004-00786             100           2
+        CONST            00004-0077F             100           2
                          00800-00FFF             100
         EEDATA           0F000-0F0FF             100           2
-        ENTRY            00004-00786             100           2
+        ENTRY            00004-0077F             100           2
                          00800-00FFF             100
         RAM              00020-0006F              50           1
                          000A0-000EF              50
@@ -301,9 +298,9 @@ UNUSED ADDRESS RANGES
         SFR7             00380-003EF              70           1
         SFR8             00400-0046F              70           1
         SFR9             00480-004EF              70           1
-        STRCODE          00004-00786             783           2
+        STRCODE          00004-0077F             77C           2
                          00800-00FFF             800
-        STRING           00004-00786             100           2
+        STRING           00004-0077F             100           2
                          00800-00FFF             100
 
                                   Symbol Table
@@ -322,22 +319,19 @@ _LATA                           (abs)        0010C
 _LATB                           (abs)        0010D
 _OPTION_REGbits                 (abs)        00095
 _OSCCON                         (abs)        00099
-_OSCILLATOR_Initialize          text6        0078B
+_OSCILLATOR_Initialize          text4        00784
 _OSCTUNE                        (abs)        00098
-_PIN_MANAGER_Initialize         text5        007B4
+_PIN_MANAGER_Initialize         text3        00795
 _PIR1bits                       (abs)        00011
 _PR2                            (abs)        0001B
-_PWM3_Initialize                text4        0079A
-_PWM3_LoadDutyValue             text7        007CA
-_SYSTEM_Initialize              text1        007A4
+_PWM3_LoadDutyValue             text5        007AB
+_SYSTEM_Initialize              text1        0078B
 _T2CON                          (abs)        0001C
-_T2CONbits                      (abs)        0001C
 _TMR2                           (abs)        0001A
-_TMR2_Initialize                text3        00792
 _TRISA                          (abs)        0008C
 _TRISB                          (abs)        0008D
 _WDTCON                         (abs)        00097
-_WDT_Initialize                 text2        00787
+_WDT_Initialize                 text2        00780
 _WPUA                           (abs)        0020C
 _WPUB                           (abs)        0020D
 __H__absolute__                 __absolute__ 00000
@@ -534,26 +528,22 @@ ___latbits                      (abs)        00001
 ___sp                           stack        00000
 ___stackhi                      (abs)        00000
 ___stacklo                      (abs)        00000
-__end_of_OSCILLATOR_Initialize  text6        00792
-__end_of_PIN_MANAGER_Initialize text5        007CA
-__end_of_PWM3_Initialize        text4        007A4
-__end_of_PWM3_LoadDutyValue     text7        007E1
-__end_of_SYSTEM_Initialize      text1        007B4
-__end_of_TMR2_Initialize        text3        0079A
-__end_of_WDT_Initialize         text2        0078B
+__end_of_OSCILLATOR_Initialize  text4        0078B
+__end_of_PIN_MANAGER_Initialize text3        007AB
+__end_of_PWM3_LoadDutyValue     text5        007C2
+__end_of_SYSTEM_Initialize      text1        00795
+__end_of_WDT_Initialize         text2        00784
 __end_of__initialization        cinit        007FD
 __end_of_main                   maintext     007FD
 __initialization                cinit        007FD
 __pcstackCOMMON                 cstackCOMMON 00070
-__pmaintext                     maintext     007E1
-__ptext1                        text1        007A4
-__ptext2                        text2        00787
-__ptext3                        text3        00792
-__ptext4                        text4        0079A
-__ptext5                        text5        007B4
-__ptext6                        text6        0078B
-__ptext7                        text7        007CA
-_main                           maintext     007E1
+__pmaintext                     maintext     007C2
+__ptext1                        text1        0078B
+__ptext2                        text2        00780
+__ptext3                        text3        00795
+__ptext4                        text4        00784
+__ptext5                        text5        007AB
+_main                           maintext     007C2
 btemp                           (abs)        0007E
 end_of_initialization           cinit        007FD
 intlevel0                       functab      00000
@@ -562,7 +552,7 @@ intlevel2                       functab      00000
 intlevel3                       functab      00000
 intlevel4                       functab      00000
 intlevel5                       functab      00000
-main@count                      cstackCOMMON 00076
+main@count                      cstackCOMMON 00075
 reset_vec                       reset_vec    00000
 start                           init         00002
 start_initialization            cinit        007FD
@@ -572,13 +562,8 @@ wtemp0                          (abs)        0007E
 MODULE INFORMATION
 
 Module		Function		Class		Link	Load	Size
-mcc_generated_files/tmr2.c
-		_TMR2_Initialize		CODE           	0792	0000	8
-
-mcc_generated_files/tmr2.c estimated size: 8
-
 mcc_generated_files/pin_manager.c
-		_PIN_MANAGER_Initialize		CODE           	07B4	0000	22
+		_PIN_MANAGER_Initialize		CODE           	0795	0000	22
 
 mcc_generated_files/pin_manager.c estimated size: 22
 
@@ -588,20 +573,15 @@ shared
 shared estimated size: 1
 
 mcc_generated_files/mcc.c
-		_WDT_Initialize		CODE           	0787	0000	4
-		_OSCILLATOR_Initialize		CODE           	078B	0000	7
-		_SYSTEM_Initialize		CODE           	07A4	0000	16
+		_WDT_Initialize		CODE           	0780	0000	4
+		_OSCILLATOR_Initialize		CODE           	0784	0000	7
+		_SYSTEM_Initialize		CODE           	078B	0000	10
 
-mcc_generated_files/mcc.c estimated size: 27
-
-mcc_generated_files/pwm3.c
-		_PWM3_Initialize		CODE           	079A	0000	10
-		_PWM3_LoadDutyValue		CODE           	07CA	0000	23
-
-mcc_generated_files/pwm3.c estimated size: 33
+mcc_generated_files/mcc.c estimated size: 21
 
 main.c
-		_main          		CODE           	07E1	0000	28
+		_main          		CODE           	07C2	0000	59
+		_PWM3_LoadDutyValue		CODE           	07AB	0000	23
 
-main.c estimated size: 28
+main.c estimated size: 82
 

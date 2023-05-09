@@ -2,10 +2,6 @@
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
-         <string>CCP3</string>
-         <string>class com.microchip.mcc.mcu8.modules.ccp_v3.CCP</string>
-      </entry>
-      <entry>
          <string>INTERNAL OSCILLATOR</string>
          <string>class com.microchip.mcc.mcu8.systemManager.osc.Osc</string>
       </entry>
@@ -26,10 +22,6 @@
          <string>class com.microchip.mcc.mcu8.systemManager.SystemManager</string>
       </entry>
       <entry>
-         <string>TMR2</string>
-         <string>class com.microchip.mcc.mcu8.modules.tmr2_v3.TMR2</string>
-      </entry>
-      <entry>
          <string>WDT</string>
          <string>class com.microchip.mcc.mcu8.systemManager.wdt.WDT</string>
       </entry>
@@ -38,222 +30,6 @@
       <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.mcu8.Mcu8PeripheralLibrary" version="1.82.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="CCP3_CCPIISRFunction"/>
-         <value>ISR</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="CCPPinName"/>
-         <value>enabled</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="CCPTMRS"/>
-         <value>CCPTMRS0</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="CTSEL"/>
-         <value>Timer 2</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="CTSELvalue"/>
-         <value>0x0</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="Capture Display"/>
-         <value>Falling edge</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="Compare Display"/>
-         <value>Toggle</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="PR2value"/>
-         <value>255</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="PrescalerValue"/>
-         <value>1:1</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="captureAssignedTimerDisplay"/>
-         <value>Timer 1</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="captureMode"/>
-         <value>Falling edge</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="ccpInputPin"/>
-         <value>disabled</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="ccpMode"/>
-         <value>PWM</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="ccpOutputPin"/>
-         <value>enabled</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="ccpr"/>
-         <value>511</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="clockFreq"/>
-         <value>8000000</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="compareAssignedTimerDisplay"/>
-         <value>Timer 1</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="compareMode"/>
-         <value>Toggle</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="pwmAssignedTimerDisplay"/>
-         <value>Timer 2</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="pwmCCPRDisplayValue"/>
-         <value>511</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="pwmDuCyDisplayValue"/>
-         <value>50.0</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="pwmFrequencyDisplay"/>
-         <value>7812.500</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="pwmPeriod"/>
-         <value>1.28E-4</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="pwmResolution"/>
-         <value>10 bits</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="timerselpresence"/>
-         <value>timerselpresent</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="tmr2freq"/>
-         <value>7812.5</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="validateTMR1"/>
-         <value/>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="CCP3" name="validateTMR2"/>
-         <value>7812.5</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CCP3" registerAlias="CCPCON" settingAlias="CCPM" alias="16th rising edge"/>
-         <value>7</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CCP3" registerAlias="CCPCON" settingAlias="CCPM" alias="4th rising edge"/>
-         <value>6</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CCP3" registerAlias="CCPCON" settingAlias="CCPM" alias="Autoconversion"/>
-         <value>11</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CCP3" registerAlias="CCPCON" settingAlias="CCPM" alias="Clearoutput"/>
-         <value>9</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CCP3" registerAlias="CCPCON" settingAlias="CCPM" alias="Falling edge"/>
-         <value>4</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CCP3" registerAlias="CCPCON" settingAlias="CCPM" alias="PWM"/>
-         <value>12</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CCP3" registerAlias="CCPCON" settingAlias="CCPM" alias="Rising edge"/>
-         <value>5</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CCP3" registerAlias="CCPCON" settingAlias="CCPM" alias="Setoutput"/>
-         <value>8</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CCP3" registerAlias="CCPCON" settingAlias="CCPM" alias="Softinterrupt"/>
-         <value>10</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CCP3" registerAlias="CCPCON" settingAlias="CCPM" alias="Toggle"/>
-         <value>2</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CCP3" registerAlias="CCPCON" settingAlias="CCPM" alias="off/reset"/>
-         <value>0</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CCP3" registerAlias="CCPTMRS" settingAlias="CTSEL" alias="PWM3timer2"/>
-         <value>0</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CCP3" registerAlias="CCPTMRS" settingAlias="CTSEL" alias="PWM3timer4"/>
-         <value>1</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="CCP3" registerAlias="CCPTMRS" settingAlias="CTSEL" alias="PWM3timer6"/>
-         <value>2</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CCP3" registerAlias="CCPCON"/>
-         <value>60</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CCP3" registerAlias="CCPRH"/>
-         <value>0</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CCP3" registerAlias="CCPRL"/>
-         <value>127</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="CCP3" registerAlias="CCPTMRS"/>
-         <value>0</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CCP3" registerAlias="CCPCON" settingAlias="CCPM"/>
-         <value>PWM</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CCP3" registerAlias="CCPCON" settingAlias="DCB"/>
-         <value>3</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CCP3" registerAlias="CCPI" settingAlias="enable"/>
-         <value>disabled</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CCP3" registerAlias="CCPI" settingAlias="flag"/>
-         <value>disabled</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CCP3" registerAlias="CCPI" settingAlias="order"/>
-         <value>-1</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CCP3" registerAlias="CCPRH" settingAlias="CCPRH"/>
-         <value>0</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CCP3" registerAlias="CCPRL" settingAlias="CCPRL"/>
-         <value>127</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="CCP3" registerAlias="CCPTMRS" settingAlias="CTSEL"/>
-         <value>PWM3timer2</value>
-      </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="INTERNAL OSCILLATOR" name="CurrentPllString"/>
          <value></value>
@@ -2275,182 +2051,6 @@
          <value>OFF</value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TMR2" name="TMR2_TMRIISRFunction"/>
-         <value>ISR</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TMR2" name="TimerPeriodkey"/>
-         <value>7812.5</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TMR2" name="clockFreq"/>
-         <value>8000000</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TMR2" name="inputMode"/>
-         <value>periodMode</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TMR2" name="prMatchValue"/>
-         <value>255</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TMR2" name="tickerFactor"/>
-         <value>0</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TMR2" name="timerPeriod"/>
-         <value>0.000128</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TMR2" name="timerPeriodActual"/>
-         <value>0.000128</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TMR2" name="timerPeriodMax"/>
-         <value>0.000128</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TMR2" name="timerPeriodMin"/>
-         <value>0.0000005</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="TMR2" name="timerstart"/>
-         <value>enabled</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TCKPS" alias="1:1"/>
-         <value>0</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TCKPS" alias="1:16"/>
-         <value>2</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TCKPS" alias="1:4"/>
-         <value>1</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TCKPS" alias="1:64"/>
-         <value>3</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TMRON" alias="off"/>
-         <value>0</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TMRON" alias="on"/>
-         <value>1</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS" alias="1:1"/>
-         <value>0</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS" alias="1:10"/>
-         <value>9</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS" alias="1:11"/>
-         <value>10</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS" alias="1:12"/>
-         <value>11</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS" alias="1:13"/>
-         <value>12</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS" alias="1:14"/>
-         <value>13</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS" alias="1:15"/>
-         <value>14</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS" alias="1:16"/>
-         <value>15</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS" alias="1:2"/>
-         <value>1</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS" alias="1:3"/>
-         <value>2</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS" alias="1:4"/>
-         <value>3</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS" alias="1:5"/>
-         <value>4</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS" alias="1:6"/>
-         <value>5</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS" alias="1:7"/>
-         <value>6</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS" alias="1:8"/>
-         <value>7</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS" alias="1:9"/>
-         <value>8</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="TMR2" registerAlias="PR"/>
-         <value>255</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="TMR2" registerAlias="TCON"/>
-         <value>4</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="TMR2" registerAlias="TMR"/>
-         <value>0</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TMR2" registerAlias="PR" settingAlias="PR"/>
-         <value>255</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TCKPS"/>
-         <value>1:1</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TMRON"/>
-         <value>on</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TMR2" registerAlias="TCON" settingAlias="TOUTPS"/>
-         <value>1:1</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TMR2" registerAlias="TMR" settingAlias="TMR"/>
-         <value>0</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TMR2" registerAlias="TMRI" settingAlias="enable"/>
-         <value>disabled</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TMR2" registerAlias="TMRI" settingAlias="flag"/>
-         <value>disabled</value>
-      </entry>
-      <entry>
-         <key class="com.microchip.mcc.core.tokenManager.SettingKey" moduleName="TMR2" registerAlias="TMRI" settingAlias="order"/>
-         <value>-1</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="WDT" name="wdtPeriod"/>
          <value>2.11406</value>
       </entry>
@@ -2553,47 +2153,31 @@
    </tokenMap>
    <generatedFileHashHistoryMap class="java.util.HashMap">
       <entry>
-         <file>mcc_generated_files/pwm3.c</file>
-         <hash>1f27e8ab00f3a9b0af1b9ad881e50c19b603bc92211252fddb6860fd9efecbfe</hash>
+         <file>mcc_generated_files\mcc.h</file>
+         <hash>614d53eed865f881dd7dce5da561e99bd93aabe4dbb5fbb75f9916cd44638125</hash>
       </entry>
       <entry>
-         <file>mcc_generated_files/device_config.h</file>
+         <file>mcc_generated_files\device_config.h</file>
          <hash>161a907092cc1af142bdf5a1178f1afdb1aa40672f1c118681e4b541145e339f</hash>
-      </entry>
-      <entry>
-         <file>mcc_generated_files/pin_manager.h</file>
-         <hash>28eb1108d8e67fd4dae90c49651e2afcb0033faa8984fe689c0c218daa363c10</hash>
       </entry>
       <entry>
          <file>main.c</file>
          <hash>d4e8bcbcb679cb955632857da55ad0b3066ef3bbbe4442d3a9a3b768ccea7ca7</hash>
       </entry>
       <entry>
-         <file>mcc_generated_files/tmr2.h</file>
-         <hash>ff9cd458725a2612bb55636b38815a75edf189f5db9bcea269c1a73ddc555bc5</hash>
-      </entry>
-      <entry>
-         <file>mcc_generated_files/mcc.h</file>
-         <hash>a17415ba147ecf7ba75273edfc315f1e2ba822d36cb7c3406ba367b355711148</hash>
-      </entry>
-      <entry>
-         <file>mcc_generated_files/device_config.c</file>
+         <file>mcc_generated_files\device_config.c</file>
          <hash>ed9b2319a53f1e403c3927e400eabf153bdd788200cf6f00dc308a933c2eb62a</hash>
       </entry>
       <entry>
-         <file>mcc_generated_files/tmr2.c</file>
-         <hash>48054a2327549a398ae9e182eac5bf3f74eeade061ce7724dd8d864cda34d766</hash>
+         <file>mcc_generated_files\pin_manager.h</file>
+         <hash>764da244a37f1c5b9a165e6226a85422b163f825575c210eb33cacc0f1b62d8e</hash>
       </entry>
       <entry>
-         <file>mcc_generated_files/pwm3.h</file>
-         <hash>99671321a484e94c9f72f303bf3e963acf08c51b18ac69b2d3afcff8c4522c9c</hash>
+         <file>mcc_generated_files\mcc.c</file>
+         <hash>789ffc78cc95d28c1b1705fd47d333802842e7ca0c0ee2ef4ea54febf44b6686</hash>
       </entry>
       <entry>
-         <file>mcc_generated_files/mcc.c</file>
-         <hash>d14b83f4e6a53d6f2463d144883b6ffb3cf8fe9c7f384a157a3bcade2bedf4b2</hash>
-      </entry>
-      <entry>
-         <file>mcc_generated_files/pin_manager.c</file>
+         <file>mcc_generated_files\pin_manager.c</file>
          <hash>7840b9eef9a3b028a4c252810530e6e6cbc7999105bafd31d5364f250b8a5dbe</hash>
       </entry>
    </generatedFileHashHistoryMap>

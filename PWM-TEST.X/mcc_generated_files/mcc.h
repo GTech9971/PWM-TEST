@@ -52,8 +52,6 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <conio.h>
-#include "pwm3.h"
-#include "tmr2.h"
 
 
 

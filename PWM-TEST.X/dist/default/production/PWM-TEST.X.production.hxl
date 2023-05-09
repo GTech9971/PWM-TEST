@@ -1,32 +1,32 @@
 ### HEXMate logfile and output summary ###
 
 ### Command-line arguments ###
- /tmp/xcKIG0tHL/driver_tmp_3.o
- -Odist/default/production/PWM-TEST.X.production.hex
- -logfile=dist/default/production/PWM-TEST.X.production.hxl
+ C:\Users\georg\AppData\Local\Temp\xcAs9ok.\driver_tmp_3.o
+ -Odist/default/production\PWM-TEST.X.production.hex
+ -logfile=dist/default/production\PWM-TEST.X.production.hxl
  -addressing=2
 
 ### Memory Usage ###
  Input file ranges:
-  0h - 7h		(/tmp/xcKIG0tHL/driver_tmp_3.o)
-  F0Eh - FFFh		(/tmp/xcKIG0tHL/driver_tmp_3.o)
-  10000h - 10007h		(/tmp/xcKIG0tHL/driver_tmp_3.o)
-  1000Eh - 10011h		(/tmp/xcKIG0tHL/driver_tmp_3.o)
+  0h - 7h		(C:\Users\georg\AppData\Local\Temp\xcAs9ok.\driver_tmp_3.o)
+  F00h - FFFh		(C:\Users\georg\AppData\Local\Temp\xcAs9ok.\driver_tmp_3.o)
+  10000h - 10007h		(C:\Users\georg\AppData\Local\Temp\xcAs9ok.\driver_tmp_3.o)
+  1000Eh - 10011h		(C:\Users\georg\AppData\Local\Temp\xcAs9ok.\driver_tmp_3.o)
  Unused ranges:
-  8h - F0Dh
+  8h - EFFh
   1000h - FFFFh
   10008h - 1000Dh
 
 ### Hex Memory Map ###
  Legend:
   -- = Unused memory
-  H1 = Input file             (/tmp/xcKIG0tHL/driver_tmp_3.o)
+  H1 = Input file             (C:\Users\georg\AppData\Local\Temp\xcAs9ok.\driver_tmp_3.o)
 ----------------------------------------------------------
          | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 ----------------------------------------------------------
 00000000 | H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- -- -- --
 ----------------------------------------------------------
-00000F00 | -- -- -- -- -- -- -- -- -- -- -- -- -- -- H1 H1
+00000F00 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000F10 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000F20 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
 00000F30 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
